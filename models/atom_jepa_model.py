@@ -3,8 +3,8 @@ import numpy as np
 import torch
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
-from models.atom_jepa_model import AtomJEPA
-from models.readouts import build_readout
+from atom_jepa import AtomJEPA
+from readouts import build_readout
 
 
 class Conformers(Dataset):

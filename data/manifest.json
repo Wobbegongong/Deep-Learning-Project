@@ -1,0 +1,28 @@
+{
+  "config": {
+    "data_revision": "146282d2ce1532f1803679a834a9bec9dac1e482",
+    "seed": 42,
+    "val_fraction": 0.15,
+    "test_fraction": 0.15,
+    "limit": null,
+    "rdkit": "2026.09.1",
+    "protocol": "atom-jepa-0.3.0"
+  },
+  "sha256": {
+    "cyp-challenge-TRAIN_inhibition.csv": "b8f79addd266fb6f9f4c222c5e4e73d926362328b6a8d2841871a54e46bd2278",
+    "cyp-challenge-TRAIN_TDI.csv": "b458f599a792412292664386e8f18adc5d4a4129d6bd212ae80a60fb9b96bb60"
+  },
+  "counts": {
+    "regression": {
+      "train": 3415,
+      "test": 762,
+      "val": 728
+    },
+    "classification": {
+      "train": 3382,
+      "test": 723,
+      "val": 715
+    }
+  },
+  "failed_conformers": 2
+}

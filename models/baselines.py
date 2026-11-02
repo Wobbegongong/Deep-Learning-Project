@@ -16,7 +16,7 @@ from omegaconf import OmegaConf
 from rdkit import Chem
 from rdkit.Chem import rdFingerprintGenerator
 from sklearn.preprocessing import QuantileTransformer
-from models.readouts import build_readout
+from readouts import build_readout
 
 _RDKIT_2D = None
 

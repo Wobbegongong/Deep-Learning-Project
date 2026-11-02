@@ -5,7 +5,7 @@ import warnings
 import lightgbm as lgb
 import numpy as np
 from omegaconf import OmegaConf
-from models.baselines import load_features
+from baselines import load_features
 
 # LightGBM names the columns itself; sklearn then warns on plain arrays.
 warnings.filterwarnings('ignore', message='X does not have valid feature names')
